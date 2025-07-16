@@ -11,7 +11,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-
 </head>
 <body>
   <header>
@@ -27,10 +26,10 @@
       <!-- Sidebar Nav -->
 <div id="sideNav" class="side-nav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Home</a>
-  <a href="#">Mission</a>
-  <a href="#">Team</a>
-  <a href="#">Join Us</a>
+  <a href="#"><i data-lucide="home"></i> Home</a>
+<a href="#"><i data-lucide="target"></i> Mission</a>
+<a href="#"><i data-lucide="users"></i> Team</a>
+<a href="#"><i data-lucide="leaf"></i> Join Us</a>
 </div>
       
       
@@ -133,17 +132,23 @@
       <h2>🌿 The Verdant Visionaries</h2>
       <p>Built by a passionate youth team for Africa’s future. 🌍</p>
 
-      <div class="social-icons">
-        <a href="#"><i data-lucide="twitter"></i></a>
-        <a href="#"><i data-lucide="instagram"></i></a>
-        <a href="#"><i data-lucide="linkedin"></i></a>
+      <div class="socials">
+    <a><i class="fa-solid fa-envelope"></i></a>
+    <a><i class="fab fa-facebook"></i></a>
+    <a ><i class="fab fa-x-twitter"></i></a>
+    <a href="https://www.instagram.com/theverdantvisionaries?igsh=YzljYTk1ODg3Zg==">
+      <i class="fab fa-instagram"></i>
+      </a>
+    <a><i class="fab fa-github"></i></a>
+
+
       </div>
     </div>
 
     <div class="footer-links">
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="#">Home</a></li>
+         <li><a href="#">Home</a></li>
         <li><a href="#">Our Mission</a></li>
         <li><a href="#">Team</a></li>
         <li><a href="#">Join Us</a></li>
@@ -163,16 +168,14 @@
   <div class="footer-bottom">
     <p>&copy; 2025 The Verdant Visionaries. All rights reserved.</p>
   </div>
-   <div class="socials">
-    <a><i class="fa-solid fa-envelope"></i></a>
-    <a><i class="fab fa-facebook"></i></a>
-    <a ><i class="fab fa-x-twitter"></i></a>
-    <a href="https://www.instagram.com/theverdantvisionaries?igsh=YzljYTk1ODg3Zg==">
-      <i class="fab fa-instagram"></i>
-      </a>
-    <a><i class="fab fa-github"></i></a>
-</div>
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>lucide.createIcons();</script>
+
 </body>
+
+
 <script>
   function openNav() {
     document.getElementById("sideNav").style.width = "100%";

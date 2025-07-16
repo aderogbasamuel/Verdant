@@ -81,7 +81,9 @@
   display: block;
   transition: 0.3s;
 }
-
+.side-nav a i {
+  margin-right: 10px;
+}
 .side-nav a:hover {
   background-color: #3e6b44;
 }
@@ -299,14 +301,16 @@ width: fit-content;
   margin-bottom: 1rem;
 }
 
-.social-icons a {
+.socials a {
   color: #d0f0d7;
   margin-right: 1rem;
   display: inline-block;
   transition: color 0.3s ease;
+  font-size: 25px;
+
 }
 
-.social-icons a:hover {
+.socials a:hover {
   color: #ffffff;
 }
 
@@ -374,7 +378,7 @@ width: fit-content;
   font-size: 0.85rem;
   color: #cde5d0;
 }
-
+/*
 .socials{
   display: flex;
   padding: 0px;
@@ -395,3 +399,4 @@ width: fit-content;
     color: #d0f0d7;
     text-decoration: none;
 }
+*/

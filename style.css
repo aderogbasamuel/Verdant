@@ -80,6 +80,8 @@
   color: #f1fdf2;
   display: block;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
 }
 .side-nav a i {
   margin-right: 10px;

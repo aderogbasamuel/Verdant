@@ -51,6 +51,49 @@
       justify-content: space-between;
       font-size: 23px;
     }
+    
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b4d2f;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+.side-nav{
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #2b4d2f;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.side-nav a {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #f1fdf2;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover {
+  background-color: #3e6b44;
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 2rem;
+  color: white;
+}
+
     header .content .texts{
       height: 100%;
       display: flex;

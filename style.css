@@ -2,7 +2,7 @@
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #f1fdf2;
+      background-color: #F6FFF7;
       color: #2b4d2f;
       padding: 0;
       box-sizing: border-box;
@@ -63,10 +63,8 @@
     }
     header h1 {
       margin: 0;
-      font-size: 43px;
-      font-weight: 700;
-      font-family: Poppins;
-      line-height: 50px;
+      font-size: 45px;
+      font-weight: 900;
       text-align: left;
     }
     header h1 span{
@@ -98,7 +96,7 @@ width: fit-content;
       z-index:10;
     }
     section {
-      padding: 2rem 1rem;
+      padding: 2rem 0rem;
       max-width: 900px;
       margin: auto;
     }
@@ -108,7 +106,7 @@ width: fit-content;
       border-radius: 10px;
       margin-bottom: 2rem;
       overflow: hidden;
-      box-shadow: 0px 0px 10px #CACACA;
+      margin: 0rem 1rem;
     }
     section .highlight img{
       width: 100%;
@@ -141,6 +139,10 @@ width: fit-content;
       width: 50px;
       color: #34a853;
     }
+    .we{
+      padding: 1rem;
+      margin: 30px 0px;
+    }
     ul {
       padding-left: 1.2rem;
     }
@@ -153,7 +155,12 @@ width: fit-content;
       padding: 2rem 1.5rem;
       text-align: center;
       border-radius: 10px;
+      margin: 1rem ;
       margin-top: 2.5rem;
+    }
+    .cta h2{
+      padding-top: 30px;
+      padding-bottom: 10px;
     }
     .cta button {
       background-color: #34a853;
@@ -165,6 +172,7 @@ width: fit-content;
       cursor: pointer;
       margin-top: 1rem;
       transition: background-color 0.3s ease;
+      
     }
     .cta button:hover {
       background-color: #2a9448;
@@ -173,7 +181,7 @@ width: fit-content;
       background-color: #e9f8eb;
       padding: 2rem 1.5rem;
       border-radius: 10px;
-      margin-top: 2rem;
+      margin-top: 4rem;
       text-align: center;
     }
     .team p{
@@ -199,7 +207,7 @@ width: fit-content;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 30px 10px;
+      padding: 30px 20px;
     }
     .member .icon{
       background: #34a853;
@@ -223,4 +231,124 @@ width: fit-content;
       margin: 0;
       color: #4e674f;
     }
+  footer {
+  background-color: #2b4d2f;
+  color: #ffffff;
+  padding: 4rem 1.5rem 1rem;
+  font-size: 0.95rem;
   
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-left h2 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-left p {
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  color: #d0f0d7;
+  margin-right: 1rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+  color: #d0f0d7;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+.footer-contact{
+  width: 100%;
+}
+.footer-contact p {
+  margin: 0.3rem 0;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+  font-size: 17px;
+  padding: 0.75rem 1.5rem;
+
+}
+
+.newsletter-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #34a853;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.newsletter-form button:hover {
+  background-color: #2a9448;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #cde5d0;
+}
+
+.socials{
+  display: flex;
+  padding: 0px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  color: #d0f0d7;
+  margin-top: 10px;
+}
+.socials a i{
+  font-size: 20px;
+  color: #d0f0d7;
+
+}
+.socials a{
+    color: #d0f0d7;
+    text-decoration: none;
+}
